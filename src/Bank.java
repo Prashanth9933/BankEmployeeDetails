@@ -39,7 +39,19 @@ public class Bank
          System.out.println(emp2.empName+" Profession is:"+emp2.empProf);
          System.out.println("-------------------------------------------");
 
+         Bank emp3=new Bank();
+         emp3.empName="Joshua";
+         emp3.empId=345;
+         emp3.empProf="Manager";
 
-   }
+         System.out.println("Employee bank name is:"+bankName);
+         System.out.println("Employee name is:"+emp3.empName);
+         System.out.println(emp3.empName+" id is:"+emp3.empId);
+         System.out.println(emp3.empName+" Profession is:"+emp3.empProf);
+         System.out.println("-------------------------------------------");
+
+
+
+     }
 }
 
